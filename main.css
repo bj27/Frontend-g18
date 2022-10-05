@@ -1,0 +1,13 @@
+h1{
+    color: red;
+}
+
+table{
+    border: rgb(141, 128, 128) solid 1px;
+    border-collapse: collapse;
+    background-color:rgb(181, 233, 181);
+    font-family:  sans-serif;
+}
+table th{
+    font-weight: bold;
+}
