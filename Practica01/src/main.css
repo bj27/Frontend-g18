@@ -30,21 +30,136 @@ a{
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
 section.home h2{
     color: #3B06D2;
+}
+section.service h2{
+    color: #D206B2;
+}
+section.portafolio h2{
+    color: #AAD206;
+}
+section.contacto h2{
+    color: #06D2C6;
+}
+section.home h2,
+section.service h2,
+section.portafolio h2,
+section.contacto h2{
     font-family: Arial, Helvetica, sans-serif;
     margin:25px;
 }
-section.home p{
+section.home p,
+section.service p,
+section.portafolio p,
+section.contacto p{
     margin: 30px;
     /* margin-bottom: 30px; */
 }
-section.home div{
+section.home div,
+section.service div,
+section.portafolio div,
+section.contacto div{
     display: flex;
     justify-content: space-around;
     justify-content: center;
 }
-section.home div img{
+section.home div img,
+section.service div img,
+section.portafolio div img{
     margin : 16px;
+}
+section.service div.content-list,
+section.portafolio div.content-list{
+    justify-content: flex-start;
+}
+section.service div.content-list div.list,
+section.portafolio div.content-list div.list{
+    display: block;
+}
+section.service div.content-list div.list ul,
+section.portafolio div.content-list div.list ul{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: left;
+}
+section.service div.content-list div.list ul li,
+section.portafolio div.content-list div.list ul li{
+    color: red;
+    margin: 24px 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    /* list-style-type: none; */
+}
+
+section.service div.content-list div.list ul li:nth-child(1){
+    color: #FF0000;
+}
+section.service div.content-list div.list ul li:nth-child(2){
+    color: #1400FF;
+}
+section.service div.content-list div.list ul li:nth-child(3){
+    color: #D79B00;
+}
+section.service div.content-list div.list ul li:nth-child(4){
+    color: #03B2B2;
+}
+
+section.portafolio div.content-list div.list ul li:nth-child(1){
+    color: #AE8800;
+}
+section.portafolio div.content-list div.list ul li:nth-child(2){
+    color: #AE280B;
+}
+section.portafolio div.content-list div.list ul li:nth-child(3){
+    color: #060564;
+}
+section.portafolio div.content-list div.list ul li:nth-child(4){
+    color: #637300;
+}
+
+section.contacto form{
+    display:flex;
+    flex-direction: column;
+}
+section.contacto form *{
+    font-size:22px;
+    margin: 25px;
+    padding: 10px
+}
+
+section.contacto form input,
+section.contacto form textarea{
+    border: solid 1px black;
+    color:black;
+}
+section.contacto form input{
+    height:80px;
+}
+
+section.contacto form input[type="button"]{
+    color:#22A900;
+    background:transparent;
+    border:#22A900 solid 1px;
+    width: 300px;
+}
+
+footer{
+    background: #00AF1C;
+    padding: 25px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+footer h3{
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
 }
