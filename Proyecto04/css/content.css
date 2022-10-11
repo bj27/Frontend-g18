@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.content section{
+    height: 600px;
+    padding-top: 2em;
+}
+div.content section.section1{
+    background: url("../src/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    position: relative;
+}
+div.content section.aboutMe{
+    background: rgba(114, 153, 254, 1);
+    height: auto;
+    padding-bottom: 2em;
+}
+div.content section.skills{
+    background: rgba(144, 34, 255, 1);
+    height: auto;
+    padding-bottom: 4em;
+}
+div.content section.portafolio{
+    background: rgba(255, 210, 51, 1);
+    height: auto;
+    padding-bottom: 4em;
+}
+div.content section.customer{
+    background: rgba(63, 78, 98, 1);
+    height: auto;
+    padding-bottom: 4em;
+}
+div.content section.contact{
+    background: rgba(22, 135, 160, 1);
+    height: auto;
+    padding-bottom: 4em;
+}
+div.content section.section1 div.nav,
+div.content section.aboutMe  div.nav,
+div.content section.skills  div.nav,
+div.content section.portafolio  div.nav,
+div.content section.customer  div.nav,
+div.content section.contact  div.nav{
+    display: flex;
+    justify-content: center;
+}
+div.content section div.nav h1{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+div.content section.aboutMe  div.nav h1{
+    color: rgba(29, 6, 167, 1);
+}
+div.content section.skills  div.nav h1{
+    color:     rgba(38, 204, 75, 1);
+}
+div.content section.portafolio  div.nav h1{
+    color: rgba(0, 173, 132, 1);
+}
+div.content section.customer div.nav h1{
+    color:rgba(173, 255, 40, 1);
+}
+div.content section.contact div.nav h1{
+    color:rgba(255, 27, 27, 1);
+    text-shadow: 0 1px 1px black;
+}
+div.content section.section1 p{
+    background:rgba(114, 153, 254, 0.5);
+    border-radius: 20px;
+    color: white;
+    font-family: arial,sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-top: 4em;
+    padding:1em;
+    width: 360px;
+}
+div.content section.aboutMe p{
+    color:white;
+    font-family:Arial;
+    margin: 2em;
+    line-height: 24px;
+}
+div.content section.aboutMe button{
+    background:rgba(209, 111, 255, 1);
+    border: solid 0px;
+    box-shadow: 1px 1px 1px #0000006e;
+    border-radius: 20px;
+    color:white;
+    margin-left: 2em;
+    padding: 1em 3em;
+}
+
+div.content section.skills .content-source{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+div.content section.skills .content-source .items{
+    /* background: red; */
+    color: white;
+    margin-top: 2em;
+    width: 35%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+div.content section.skills .content-source .items .content-range{
+    position: relative;
+}
+div.content section.skills .content-source .items .content-range .range{
+    border-radius: 10px;
+    border: solid  10px white;
+    margin-top:  1em;
+    width: 100%;
+}
+div.content section.skills .content-source .items .content-range .range-step{
+    position: absolute;
+    border-radius: 10px;
+    border: solid  10px rgba(87, 239, 249, 1);
+    left: 0px;
+    top: 0%;
+    width: 80%;
+}
+
+div.content section.skills .content-source .items:nth-child(2) .content-range .range-step{
+    width: 10%;
+}
+div.content section.skills .content-source .items:nth-child(3) .content-range .range-step{
+    width: 40%;
+}
+div.content section.skills .content-source .items:nth-child(6) .content-range .range-step{
+    width: 20%;
+}
+
+div.content section.portafolio .content-source .items,
+div.content section.customer .content-source .items{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+div.content section.portafolio .content-source .items img,
+div.content section.customer .content-source .items img{
+    margin: 1em;
+}
+div.content section.portafolio .content-source .items img{
+    width: 140px;
+}
+div.content section.contact form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+div.content section.contact form .input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.content section.contact form .input input,
+div.content section.contact form .input textarea{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(191, 191, 191, 1);
+    margin: 1em;
+    padding: 2em 1em;
+    width: 40%;
+}
+div.content section.contact form .input textarea{
+    resize: none;
+    width: 90%;
+}
+div.content section.contact form .input input[type="submit"]{
+    background:rgba(35, 52, 81, 1);
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding:0%;
+    height: 56px;
+    width: 167px;
+}
