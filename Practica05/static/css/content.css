@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.content{
+    background: url("../images/bg-hero-desktop.svg") #edfbfe;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: 100% 100%;
+    margin-bottom: 2em;
+}
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div{
+        margin: 2em;
+    }
+    header div button{
+        background-color: white;
+        border: solid 1px white;
+        border-radius: 2em;
+        box-shadow: 0px 0px 4px #0000003d;
+        font-family: arial,sans-serif;
+        font-weight: bold;
+        padding: 10px 3em;
+    }
+    header div span img{
+        width: 140px;
+    }
+    section{
+        display :flex;
+        justify-content: space-around;
+        padding: 2em;
+        /* flex-wrap: wrap; */
+    }
+    /* section div{
+        display :flex;
+        flex-wrap: wrap;
+    } */
+    section div.message{
+        display: flex;
+        justify-items: center;
+        flex-direction: column-reverse;
+    }
+    section div.message h1{
+        font-family: arial,sans-serif;
+        font-weight: bolder;
+    }
+    section div.message p,
+    section div.message button{
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    section div.message button,
+    div.indexZ div.content-freeStart button{
+        background-color: rgb(255 85 204);
+        border: solid 1px rgb(255 85 204);
+        border-radius: 2em;
+        color: white;
+        padding: 10px 1em;
+        width: 200px;
+    }
+    section div img{
+        width: 400px;
+    }
+
+    section.tarjetas{
+        margin: 3em;
+        box-shadow: 1px 1px 6px #0000004f;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    section.tarjetas div{
+        padding: 2em;
+    }
+    section.tarjetas div h1{
+        margin-bottom: 1em;
+    }
+    section.tarjetas div p{
+        color: #a4a7aa;
+        font-family: inherit;
+    }
+
+    div.indexZ{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div.indexZ div.content-freeStart{
+        background-color: white;
+        box-shadow: 1px 1px 6px #0000004f;
+        padding: 2em 6em;
+        border-radius: 10px;
+        margin-top: -8em;
+    }
+    div.indexZ div.content-freeStart div{ 
+        display: flex;
+        justify-content: center;
+    }
+    div.indexZ div.content-freeStart div button{
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    footer{
+        background: #00252e;
+        margin-top: 10em;
+        padding: 3em;
+    }
+    footer div.logo{
+        margin-top: 4em;
+    }
+    footer div.logo img{
+        width: 200px;
+    }
+    footer div.logo,
+    footer div.footer{
+        display: flex;
+        justify-content: space-between;
+        justify-items: flex-start;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+    footer div.footer{
+        margin-top: 2em;
+    }
+    footer div.footer div.footer-contact div{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center; 
+        margin-top: 1.5em;
+        /* flex-direction: row;*/
+    }
+    footer div.footer div.footer-contact div img{
+        height: 20px;
+        width: 20px;
+    }
+    footer div.footer div.footer-contact div p{
+        color:#778e91;
+        padding-left: 2em;
+    }
+    footer div.footer div.footer-ref{
+        display: flex;
+        flex-direction: column;
+    }
+    footer div.footer div.footer-ref a{
+        margin-top: 1em;
+    }
+    footer div.footer div.social img{
+        margin: 6px;
+    }
+    footer .copy{
+        color:#778e91;
+        display: flex;
+        margin-top:3em;
+        justify-content: flex-end;
+    }
